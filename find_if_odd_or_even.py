@@ -10,10 +10,13 @@ def odd_or_even():
                 num = int(input("Type a number: "))
 
                 if (num % 2 == 1):
-                    print(f"{num} is an odd number")
+                    print(f"{num} is an odd number")                                        
+                    print("_______________________________________")
                     break
                 else:
-                    print(f"{num} is an even number")
+                    print(f"{num} is an even number")                                
+                    print("_______________________________________")
+
                     break   
 
             except ValueError:
