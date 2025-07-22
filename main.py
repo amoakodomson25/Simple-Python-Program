@@ -2,6 +2,8 @@ from find_largest_number import find_largest
 from swap_number import swap_number
 from find_if_odd_or_even import odd_or_even
 from find_sqrt import calculate_sqrt
+from multiplication_table import multi
+from fibonaci import fib
 
 
 
@@ -26,6 +28,8 @@ def Game_hub():
             print("<2> Find the largest number")
             print("<3> Check if number is odd or even")
             print("<4> Calculate Sqrt of a number")
+            print("<5> Multiplication table")                        
+            print("<6> Fibonacci Sequence up to n terms")
             print("<99> To quit")
             print()
             select_program = int(input('What program do you want to run: '))
@@ -41,7 +45,10 @@ def Game_hub():
 
             elif select_program == 4:
                 calculate_sqrt()
-                
+            elif select_program == 5:
+                multi()
+            elif select_program == 6:
+                fib()
             elif select_program == 99:
                 break
         except ValueError:
