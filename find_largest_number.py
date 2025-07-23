@@ -1,7 +1,7 @@
 def find_largest():
 
     print()
-    print("Find Largest number between 2 numbers")
+    print("Find largest number between 2 numbers")
     print("_______________________________________")
 
     def game():
