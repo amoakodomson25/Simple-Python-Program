@@ -9,6 +9,7 @@ from sort_num_dsc import sort_dsc
 from find_largest_number_multiple import find_largest_2
 from find_smallest_number_multiple import find_smallest
 from factor_of_no import factor
+from factorial import factorial
 
 
 def Game_hub():
@@ -30,6 +31,7 @@ def Game_hub():
             print("[9] Find the largest number between multiple numbers")
             print("[10] Find the smallest number between multiple numbers")
             print("[11] Find the factors of a number")
+            print("[12] Find the factorial of a number")
             print("<99> To quit")
             print()
             select_program = int(input("What program do you want to run: "))
@@ -66,6 +68,9 @@ def Game_hub():
 
             elif select_program == 11:
                 factor()
+            
+            elif select_program == 12:
+                factorial()
                 
             elif select_program == 99:
                 break
