@@ -4,7 +4,7 @@ def swap_number():
     print("Swap 2 numbers")
     print("_______________________________________")
 
-    def game():
+    def check():
         while True:
             try:
                 a = int(input("Enter 1st number (a): "))
@@ -17,4 +17,4 @@ def swap_number():
             except ValueError:
                 print("Enter a valid number")
 
-    game()
+    check()
