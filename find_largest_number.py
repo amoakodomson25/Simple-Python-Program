@@ -4,7 +4,7 @@ def find_largest():
     print("Find largest number between 2 numbers")
     print("_______________________________________")
 
-    def game():
+    def check():
         while True:
             try:
                 a = int(input("Enter 1st number (a): "))
@@ -27,4 +27,4 @@ def find_largest():
             except ValueError:
                 print("Enter a valid number")
 
-    game()
+    check()
