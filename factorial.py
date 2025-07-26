@@ -3,7 +3,7 @@ def factorial():
     print("Find factors of a number")
     print('---------------------------------------')
 
-    def game():
+    def check():
         while True:
             try:
                 
