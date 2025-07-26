@@ -3,7 +3,7 @@ def factor():
     print("Find factors of a number")
     print('---------------------------------------')
 
-    def game():
+    def check():
         while True:
             try:
                 num = int(input("Enter a number: "))
@@ -16,4 +16,4 @@ def factor():
                 break
             except ValueError:
                 print("Enter a number")
-    game()
+    check()
