@@ -3,7 +3,7 @@ def fib():
     print("Fibonacci Sequence up to n terms")
     print("_______________________________________")
 
-    def game():
+    def check():
         while True:
             try:
                 num = int(input("Enter the number of terms: "))
@@ -16,4 +16,4 @@ def fib():
                 break
             except ValueError:
                 print("Enter a valid number")    
-    game()
+    check()
