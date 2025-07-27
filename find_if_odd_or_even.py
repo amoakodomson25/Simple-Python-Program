@@ -3,7 +3,7 @@ def odd_or_even():
     print("Is a number odd or even")
     print('---------------------------------------')
 
-    def check():
+    def find():
         while True:
             try:
 
@@ -21,5 +21,5 @@ def odd_or_even():
 
             except ValueError:
                 print("Enter a number")
-    check()
+    find()
 
