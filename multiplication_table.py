@@ -3,7 +3,7 @@ def multi():
     print("Get multiplication table of a number")
     print("_______________________________________")
 
-    def game():
+    def print_table():
         while True:
             try:
                 num = int(input("Enter the number: "))
@@ -13,5 +13,5 @@ def multi():
                 break
             except ValueError:
                 print("Enter a valid number")
-    game()
+    print_table()
 
