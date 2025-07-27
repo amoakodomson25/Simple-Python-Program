@@ -4,7 +4,7 @@ def find_smallest():
     print("Find smallest number in an array")
     print("_______________________________________")
 
-    def game():
+    def find():
         while True:
             try:
                 numbers = list(map(int, input("Enter numbers separated by space: ").split()))
@@ -13,4 +13,4 @@ def find_smallest():
             except ValueError:
                 print("Enter a valid number")
 
-    game()
+    find()
