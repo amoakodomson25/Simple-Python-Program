@@ -12,7 +12,7 @@ from factor_of_no import factor
 from factorial import factorial
 
 
-def Game_hub():
+def program_hub():
     while True:
         try:
             print()
@@ -77,4 +77,4 @@ def Game_hub():
         except ValueError:
             print("Type a number")
 
-Game_hub()
+program_hub()
