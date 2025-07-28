@@ -5,7 +5,7 @@ def calculate_sqrt():
     print("Calculate Squareroot of a number")
     print('---------------------------------')
 
-    def calculateSqrt():
+    def calculate():
         while True:
             try:
                 num = float(input("Type a number: "))
@@ -15,4 +15,4 @@ def calculate_sqrt():
                 break
             except ValueError:
                 print("Enter a number")
-    calculateSqrt()
+    calculate()
