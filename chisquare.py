@@ -1,4 +1,4 @@
-def sort_asc():
+def chi():
     print()
     print("chi square test of homogenity")
     print("_______________________________________")
@@ -30,4 +30,4 @@ def sort_asc():
                 except ValueError:
                     print("Enter a valid number")    
     chisquare()
-sort_asc()
+
