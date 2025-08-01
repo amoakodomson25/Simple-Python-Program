@@ -11,6 +11,8 @@ from find_smallest_number_multiple import find_smallest
 from factor_of_no import factor
 from factorial import factorial
 from chisquare import chi
+from mean import mean
+
 
 
 def program_hub():
@@ -34,6 +36,7 @@ def program_hub():
             print("[11] Find the factors of a number")
             print("[12] Find the factorial of a number")            
             print("[13] Find the chisquare of homogeneity(with probabilities and frequencies)")
+            print("[14] Find the mean")
             print("<99> To quit")
             print()
             select_program = int(input("What program do you want to run: "))
@@ -76,6 +79,9 @@ def program_hub():
             
             elif select_program == 13:
                 chi()
+
+            elif select_program == 14:
+                mean()
                 
             elif select_program == 99:
                 break

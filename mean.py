@@ -7,7 +7,7 @@ def mean():
     def find_mean():
             while True:
                 try:
-                    frequncies = list(map(float, input("Enter frequencies of categories: ").split()))
+                    frequncies = list(map(float, input("Enter frequencies seperated by space: ").split()))
                     sum_frequncies = sum(frequncies)
                     mean = sum_frequncies/len(frequncies)
 
